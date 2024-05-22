@@ -58,7 +58,7 @@ function draw() {
 		fill(255)
 		textSize(60)
 		textStyle(BOLD)
-		text("Media Artist Young",40,120)
+		text("Media Artist 0",40,120)
 	pop()
 	
 		// ellipse(mouseX, mouseY, 20, 20);
