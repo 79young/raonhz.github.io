@@ -54,11 +54,18 @@ function draw() {
 
 	image(viewGraphics,0,0)
 
+
 	push()
 		fill(255)
 		textSize(60)
+		textStyle()
+		text("Media Artist",40,120)
+	pop()
+	push()
+		fill(255)
+		textSize(200)
 		textStyle(BOLD)
-		text("Media Artist 0",40,120)
+		text("0",400,220)
 	pop()
 	
 		// ellipse(mouseX, mouseY, 20, 20);
