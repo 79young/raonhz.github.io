@@ -58,15 +58,15 @@ function draw() {
 	push()
 		fill(255)
 		textSize(60)
-		textStyle()
-		text("Media Artist",40,120)
-	pop()
-	push()
-		fill(255)
-		textSize(200)
 		textStyle(BOLD)
-		text("0",400,220)
+		text("Media Artist Y.",40,120)
 	pop()
+	// push()
+	// 	fill(255)
+	// 	textSize(200)
+	// 	textStyle(BOLD)
+	// 	text("0",400,220)
+	// pop()
 	
 		// ellipse(mouseX, mouseY, 20, 20);
 }
